@@ -24,3 +24,12 @@ incubyte assesment
 * run command npm start
 * go to localhost:4200
 
+## Apis which are working
+* GET localhost:5000/api/delete/{id} -- For Deletion
+* POST localhost:5000/api/add-word  -- For insertion (require a data body )
+```
+{
+    "word":"shesho"
+}
+```
+* GET localhost:5000/api/get-words -- show all
